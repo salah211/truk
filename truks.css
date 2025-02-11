@@ -1,0 +1,111 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(to top, #020a38, #0f31f2);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 90vh; 
+}
+
+#contains {
+    width: 30%;
+    height: auto;
+    background: linear-gradient(to top, #071b4d, #1152f5);
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 1rem; 
+    border: #020a38 solid;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px black;
+}
+
+#btn{
+    width: 4rem;
+    height: 3rem;
+    border: none;
+    border-radius: 10px;
+    font-family: "Mada", serif;
+    font-size: 18px;
+    background-color: #5a2bab;
+}
+
+#buttons{
+    display: flex;
+    gap:1rem;
+    padding: 20px;
+}
+
+#btn:hover{
+    box-shadow: 0px 0px 10px black;
+    background-color: #0a1a73;
+    color: beige;
+}
+
+#inputs{
+    padding: 10px;
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+}
+.input{
+    width: 50%;
+    height: 20%;
+    font-family: "Mada", serif;
+    font-size: 23px;
+    background: none;
+    border: none;
+    border-bottom: 2px #34c3eb solid;
+    outline: none;
+    text-align: center;
+    -moz-appearance: textfield; 
+}
+
+label {
+    font-family: "Mada", serif;
+    font-size: 30px;
+}
+
+#inp {
+        width: 4rem;
+        height: 3rem;
+        border: none;
+        border-radius: 10px;
+        font-family: "Mada", serif;
+        font-size: 18px;
+        background-color: #5a2bab;
+}
+
+#inp:hover{
+    box-shadow: 0px 0px 10px black;
+    background-color: #0a1a73;
+    color: beige;
+}
+
+#result{
+    padding: 1rem;
+    display: flex;
+    justify-items: center;
+    gap: 15px;
+    align-items: center;
+}
+
+h4{
+    font-family: "Mada", serif;
+    font-size: 30px;
+    width: 1rem;
+}
+
+#round{
+    font-family: "Mada", serif;
+    font-size: 30px;
+    color:white;
+}
